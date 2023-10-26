@@ -16,6 +16,9 @@ Este projeto é construído com a utilização das seguintes tecnologias:
   - HTML e CSS: Utilizando recursos especiais para garantir uma experiência única.
   - Bootstrap: Aproveitando o poder do Bootstrap para criar um design responsivo e atrativo.
 
+# Layout Mobile
+
+
 
 # Autor
 Bruno Cesar Serafim

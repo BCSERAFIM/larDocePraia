@@ -18,6 +18,12 @@ Este projeto é construído com a utilização das seguintes tecnologias:
 
 # Layout Mobile
 
+![Cabeçalho](imgsApp/cabecalho.png)   ![Rodapé](imgsApp/rodapé.png)
+
+# Layout Web
+
+![Site](imgsApp/site.png)
+
 
 
 # Autor

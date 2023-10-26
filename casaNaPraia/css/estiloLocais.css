@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+html, body, #container {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #fdf6be;
+  min-width: 320px;
+}
+
+
+.conteudo {
+ background-color: #fdf6be ;
+ padding: 5px;
+ 
+ 
+}
+
+#topo {
+  background: linear-gradient(to bottom, #b0aaa7, #fdf6be);
+  margin: 0 auto;
+  border-bottom: 1px solid #808080;
+  
+  /*min-width: 576px;*/
+ 
+}
+
+.rodape {
+  background-color: rgba(253, 246, 190, 0.7);
+  text-align: center;
+  color: #fdf6be;
+  padding: 5px; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+/* Configuação lado esquerdo*/
+
+#arealogo {
+  background: url(../imgs/fundoLogoMarrom.png) no-repeat;
+  width: 300px;
+  height: 249px;
+ }
+
+.logo a {
+  position: absolute;
+  top: 185px;
+  left: 0px;
+  z-index: 3;
+  background: url(../imgs/larDocePraia.png) no-repeat;
+  width: 151px;
+  height: 66px;
+  text-indent: -9000;
+}
+
+/*Barra de navegação vertical*/
+
+#menu {
+  padding: 5px;
+  left: 5px;
+}
+
+ul {
+  list-style: none;
+
+}
+
+
+ul#navegacao a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #fdf6be;
+  line-height: 30px;
+
+}
+
+ul#navegacao a:hover {
+  color: black;
+  background: linear-gradient(135deg, #CDFFD8 0%, #94B9FF 100%);
+  font-weight: bold;
+  padding: 5px;
+}
+
+
+ /* Configuação lateral direita*/
+
+#conteudolocal {
+  justify-content: center;
+  align-items: center;
+  height: 100%;  
+}
+
+#menuItapoa {
+  padding-top: 5px;
+  font-size: 0.7em;
+  color: #8b8448;
+  text-align: center;  
+}
+
+#menuItapoa.Locais {
+  padding: 10px;   
+}
+
+a.saibaMais {
+  text-transform: uppercase;  
+  color: #fdf6be;
+  padding: 10px;  
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover.saibaMais {
+    color: black;
+    background: linear-gradient(135deg, #CDFFD8 0%, #94B9FF 100%);
+    font-weight: bold;
+    padding: 5px;
+}
+
+#quadro {
+  padding: 10px;
+}
+#fraseHeader {
+  text-transform: uppercase;
+  color: #fdf6be;
+  font-weight: bold;
+  text-align: center;
+}
+
+#quadro {
+  border-radius: 25px;  
+}
+
+/* Sessão */
+
+.card {
+  background: linear-gradient(135deg, #CDFFD8 0%, #94B9FF 100%);
+  color: black;
+  min-width: 370px;
+  height: auto;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.icon a {
+  width: 48px;
+  height: 48px;
+  background-color: #94B9FF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #CDFFD8;
+  font-size: 20px;
+}
+
+.icon a:hover {
+  color: white;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+  justify-content: center;
+}
+
+.card-image {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+  display: contents;
+  
+}
+
+.paragrafo-justificado {
+  text-align: justify;
+  color: black;
+  font-weight: bold;
+}
+
+section h1 {
+  text-transform: uppercase;
+  padding: 5px;  
+}
+
+.card h3 {
+  background-color: #b0aaa7;
+  color: #fdf6be;
+  text-transform: uppercase;
+}
+
+/* Estilize a lista de navegação do rodapé */
+
+ul.navegacaoRodape {
+  list-style: none;
+  display: flex;
+  /* Torna os elementos filhos da lista flexíveis */
+  justify-content: center;
+  /* Centraliza os elementos horizontalmente */
+  padding: 10px;
+  /* Adicione algum espaço entre os itens, se necessário */
+}
+
+ul.navegacaoRodape li {
+  margin: 0 10px;
+  /* Espaçamento entre os itens */
+}
+
+ul.navegacaoRodape a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.8em;    
+  line-height: 30px;
+  
+}
+
+ul.navegacaoRodape a:hover {
+  color: black;
+  background: linear-gradient(135deg, #CDFFD8 0%, #94B9FF 100%);
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* Dimensional */
+
+
+/*
+ 	col-sm (>=576px) 
+    col-md (>=720px)
+    col-lg (>=960px)
+    col-xl (>=1140px)
+*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  .btn-custom {
+    margin: 10px 15px;
+    font-size: 1em;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .md-center-content{
+    text-align: center;
+      /* Centraliza horizontalmente */
+      display: flex;
+      justify-content: center;
+      /* Centraliza verticalmente */
+      align-items: center;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ 
+
+}
